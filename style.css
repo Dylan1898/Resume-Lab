@@ -1,0 +1,32 @@
+.media{
+    height: 100px;
+    width: 100px;
+}
+.toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    display: inline;
+    
+}
+.insta{
+    float:right;
+}
+    
+.dribble{
+    float:left;
+}
+    
+
+.goodbye{
+    text-align :center;
+}
+
+.about{
+    margin-left: 320px;
+    
+}
