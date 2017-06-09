@@ -7,7 +7,11 @@ margin:0 auto;
 .karl{ 
     position: relative;
     left:100px;
+    
    
+}
+.pilk{
+    border: 5px solid purple;
 }
 .greeting{
     position: relative;
@@ -15,6 +19,8 @@ margin:0 auto;
     background-color: lightgray;
     background-size: 500px;
     margin-top: 100px;
+    border: 10px solid purple;
+
 }
 .explain{
   position:relative;
@@ -47,9 +53,9 @@ margin:0 auto;
 }
 
 .media{
-    height: 100px;
-    width: 100px;
-    padding: 10px;
+    height: 50px;
+    width: 50px;
+    
 }
 .toolbar {
     list-style-type: none;
@@ -69,7 +75,7 @@ li {
     
 }
 
-.insta{
+/** .insta{
     float:right;
 }
     
@@ -81,7 +87,7 @@ li {
 .goodbye{
     text-align :center;
 }
-
+**/
 .about{
      color:Orange;
      font-size: 3.25em;
@@ -105,12 +111,30 @@ input[type=Submit] {
     color: white;
     cursor: pointer;
     border-radius: 3px;
+    height: 35px;
+    width: 100px;
 } 
 input[type=text] {
     width:40%;
     padding: 10px;
     margin-bottom: 10px;
 }
+input[type=text]:focus{
+    border: 5px solid purple;
+}
+
+input[type=message] {
+    width:40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    font-size: 12px;
+    
+}
+input[type=message]:focus{
+    border: 5px solid purple;
+}
+
 a:link {
     text-decoration: none;
     color:black;
@@ -118,7 +142,10 @@ a:link {
 .pictures {
     height:33%;
     width:33%;
+    margin:-3px;
 }
+
+
 table{
     border-spacing: 30px;
     
@@ -132,13 +159,33 @@ h3{
 }
 .talk{
     font-size: 4em;
-    display: inline;
+    margin-top:30px;
     
 }
 .work{
    text-align:right;
+   color: lightgray;
+}
+form{
+width: 100%;
+ margin-left: 25%;
+ margin-right:25%;
+ display: inline-block;
+ margin-bottom:20px;
+ padding: 10px
 }
 
-,feedback{
-    margin:0 auto;
+.end{
+    display: inline-block;
 }
+.foot{
+    display:inline-flex;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+hr{ 
+    height: 3px;
+    background-color: orange;
+    border: 1px solid purple;
+}
+
