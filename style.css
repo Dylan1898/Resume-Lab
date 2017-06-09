@@ -1,18 +1,74 @@
+
+
+body{
+max-width: 1200px;
+margin:0 auto;
+}
+.karl{ 
+    position: relative;
+    left:100px;
+   
+}
+.greeting{
+    position: relative;
+    padding:10px;
+    background-color: lightgray;
+    background-size: 500px;
+    margin-top: 100px;
+}
+.explain{
+  position:relative;
+  margin-left: 50%;
+  background:white;
+  border: 2px solid black b;
+  word-wrap : break-word;
+  width: 400px;
+  height:300px;
+
+}
+
+.details{
+    float:left;
+    margin-left:25%;
+    
+}
+.hello{
+    font-size: 2.5em;
+    color: grey;
+}
+.name{
+    font-size: 1.75em;
+    color: grey;
+
+}
+.school{
+    font-size: 1fem;
+    color: grey;
+}
+
 .media{
     height: 100px;
     width: 100px;
+    padding: 10px;
 }
 .toolbar {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 2px;
     float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    word-spacing: 20px;
+
 }
 
 li {
     display: inline;
+    border-bottom: thick solid orange; 
+
     
 }
+
 .insta{
     float:right;
 }
@@ -27,6 +83,62 @@ li {
 }
 
 .about{
-    margin-left: 320px;
+     color:Orange;
+     font-size: 3.25em;
+     position: absolute;
+     top: 140px;
+     left:200px;
+     
+}  
+.location{
+    position: absolute;
+    top: 260px;
+     left:200px;
+     padding: 12px;
+     font-size: 1.25em;
+     font-family: Impact
+}
+
+input[type=Submit] {
+
+    background-color: Orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+} 
+input[type=text] {
+    width:40%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+a:link {
+    text-decoration: none;
+    color:black;
+}
+.pictures {
+    height:33%;
+    width:33%;
+}
+table{
+    border-spacing: 30px;
     
+
+}
+
+  
+
+h3{
+    font-size: 30px;
+}
+.talk{
+    font-size: 4em;
+    display: inline;
+    
+}
+.work{
+   text-align:right;
+}
+
+,feedback{
+    margin:0 auto;
 }
