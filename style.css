@@ -3,6 +3,7 @@
 body{
 max-width: 1200px;
 margin:0 auto;
+
 }
 .karl{ 
     position: relative;
@@ -186,6 +187,6 @@ width: 100%;
 hr{ 
     height: 3px;
     background-color: orange;
-    border: 1px solid purple;
+    border: 2px solid purple;
 }
 
